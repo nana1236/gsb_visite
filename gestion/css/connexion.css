@@ -1,0 +1,167 @@
+body{
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../css/image/ap3.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    text-align: center;
+}
+
+.titre{
+    text-align: center;
+    margin-top: -55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inscr-e{
+    margin-top: 300px;
+}
+
+.inscr{
+    margin-top: 150px;
+}
+
+.conn{
+    margin-top: 45px;
+}
+
+.conn-e{
+    margin-top: 14% ;
+}
+
+.monprofil{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+.accueil {
+    top: 5px;
+    width: 220px;
+    height: 50px;
+    left: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.accueil:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.accueil:active {
+    color: #000
+}
+
+.accueil:active:after {
+    background: transparent;
+}
+
+.accueil:hover:before {
+    opacity: 1;
+}
+
+.accueil:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.accueil-inscr {
+    width: 220px;
+    height: 50px;
+    right: 43%;
+    margin-top: -29.5%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.accueil-inscr:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.accueil-inscr:active {
+    color: #000
+}
+
+.accueil-inscr:active:after {
+    background: transparent;
+}
+
+.accueil-inscr:hover:before {
+    opacity: 1;
+}
+
+.accueil-inscr:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

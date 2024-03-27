@@ -1,0 +1,120 @@
+html,
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century; 
+}
+
+/* Styles pour le corps */
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../css/image/ap3.jpg); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Utilisez la hauteur de la fenêtre pour s'assurer que le contenu est visible */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.msg-rapport {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Styles pour le corps */
+
+
+/* Styles pour l'en-tête du site */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../css/image/ap3.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 150vh; 
+}
+
+.logo a {
+    color: black;
+    padding: 0px 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0,0,0,0.7);
+}
+
+.logo span {
+    color: rgb(238,56,11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Styles pour la navigation */
+nav {
+    float: right;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li {
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+/* Styles pour les liens de la navigation au survol */
+ul li a:hover {
+    background: antiquewhite;
+    color: black;
+}
+
+/* Styles pour l'élément actif dans la navigation */
+ul li.active a {
+    background: antiquewhite;
+    color: black;
+}
+
+/* Styles pour le contenu principal */
+.principale {
+    max-width: 500rem;
+    margin: 0 auto;
+}
+
+/* Ajoutez les autres styles de votre contenu ici */
+
+
